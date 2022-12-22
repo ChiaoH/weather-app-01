@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/1d946b6af9.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,14 +31,14 @@
           <div class="card-body">
             <div class="search-section">
               <div class="row">
-                <div class="col-5">
+                <div class="col-6">
                   <h1 class="header">Malmö</h1>
                   <ul>
                     <li>Thursday 8:11</li>
-                    <li>Cloudy</li>
+                    <li id="description">Cloudy</li>
                   </ul>
                 </div>
-                <div class="col-7">
+                <div class="col-6">
                   <input
                     type="search"
                     class="search-box"
@@ -54,7 +55,7 @@
                   <i class="fa-solid fa-cloud-sun d-flex" id="icon-main"></i>
                 </div>
                 <div class="col-3 d-flex" id="temp-current">
-                  <h1>6</h1>
+                  <h1 id="temp-current-nr">6</h1>
                   <span class="d-flex" id="degree-switch"
                     ><a href="###"> °C </a>&nbsp;|&nbsp;<a href="###"> °F</a>
                   </span>
@@ -62,16 +63,16 @@
 
                 <div class="col-3 d-flex">
                   <ul>
-                    <li>Highest: 4°C</li>
-                    <li>Lowest: -4°C</li>
-                    <li>Feels like: 5°C</li>
+                    <li>Highest: <span id="high-temp-nr">4</span>°C</li>
+                    <li>Lowest: <span id="low-temp-nr">-4</span>°C</li>
+                    <li>Feels like: <span id="feels-like-nr">5</span>°C</li>
                   </ul>
                 </div>
                 <div class="col-3 d-flex" id="info-sec-4">
                   <ul>
-                    <li>Humidity: 54%</li>
-                    <li>Wind: 3m/s</li>
-                    <li>Precipitation: 20%</li>
+                    <li>Humidity: <span id="humidity-nr">54</span>%</li>
+                    <li>Wind: <span id="wind-speed-nr">3</span>m/s</li>
+                    <li>Sunrise: 06:10</li>
                   </ul>
                 </div>
               </div>
