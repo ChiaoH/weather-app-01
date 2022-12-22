@@ -1,39 +1,68 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-  margin-top: 200px;
-  max-width: 50%;
+  margin-top: 150px;
+  max-width: 700px;
+}
+.card {
+  padding: 15px;
+  background-color: #d8dbe2;
+}
+
+.info-section {
+  margin-top: 30px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
   text-align: left;
-  color: plum;
+  color: #373f51;
   display: inline;
+  font-family: "Kenia", cursive;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .search-box {
   display: inline;
-  max-width: 400px;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 20px;
 }
 
 .search-btn {
   display: inline;
+  margin-left: 20px;
+  border-color: #58a4b0;
+  background-color: #58a4b0;
 }
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  color: #1b1b1e;
 }
 
 #icon-main {
-  display: inline;
+  margin-top: 15px;
+  margin-left: 5px;
   font-size: 70px;
-  color: lightseagreen;
+  color: #58a4b0;
 }
 
-#temp-current {
-  display: inline;
+#degree-switch {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
 }
 
 #link-sourcecode {
-  margin-left: 350px;
+  margin-left: 50px;
   margin-top: 10px;
 }
