@@ -1,5 +1,39 @@
+.container {
+  margin-top: 200px;
+  max-width: 50%;
+}
+
 h1 {
   font-size: 50px;
-  text-align: center;
+  text-align: left;
   color: plum;
+  display: inline;
+}
+
+.search-box {
+  display: inline;
+  max-width: 400px;
+}
+
+.search-btn {
+  display: inline;
+}
+
+ul {
+  list-style: none;
+}
+
+#icon-main {
+  display: inline;
+  font-size: 70px;
+  color: lightseagreen;
+}
+
+#temp-current {
+  display: inline;
+}
+
+#link-sourcecode {
+  margin-left: 350px;
+  margin-top: 10px;
 }
